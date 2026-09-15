@@ -27,13 +27,18 @@ Two deliberate additions:
 |---|---|
 | HTML and CSS | freeCodeCamp, Responsive Web Design |
 | JavaScript | freeCodeCamp, JavaScript Algorithms and Data Structures |
-| React | freeCodeCamp, Front End Development Libraries |
-| Python | freeCodeCamp, Scientific Computing with Python |
-| SQL | freeCodeCamp, Relational Database certification |
-| Flask | **Not on freeCodeCamp.** Flask official docs plus a long-form course. We pick one at week 20. |
-| Next.js | Official Next.js docs in this project's `node_modules` |
+| React | freeCodeCamp, Front End Libraries |
+| Python | freeCodeCamp, Python Programming |
+| SQL | freeCodeCamp, Relational Databases |
+| Flask | **Not on freeCodeCamp.** Flask Mega-Tutorial and official docs. |
+| Next.js | Official Next.js docs in `~/lucim-polls/node_modules/next/dist/docs/` |
 
-Flask is the one real gap. Worth knowing now rather than discovering it in January.
+Two things to know about freeCodeCamp:
+
+1. **The full path is about 1,800 hours.** Six certifications at roughly 300 hours each, plus a capstone. We have 600. So we read the chapters that match the week we are on and we do not chase certificates. Certificates can be finished later.
+2. **Flask is a real gap.** freeCodeCamp's Back End Development and APIs certification teaches Node and Express, not Flask. Useful for week 24, no help in weeks 20 to 23.
+
+Full source list per topic is in [RESOURCES.md](RESOURCES.md).
 
 ---
 

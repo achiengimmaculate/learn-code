@@ -11,10 +11,20 @@ My full stack learning workshop. Theory comes from freeCodeCamp. Practice happen
 
 ## How a lesson works
 
-- `BRIEF.md` tells me what to build and what to learn first on freeCodeCamp.
-- I write my code in the lesson folder.
-- I tell Claude "done" and it reviews my actual code, line by line.
-- Claude asks me questions about my own code. Then we move on.
+Each week's folder has four things:
+
+| File | Who writes it | What it is |
+|------|---------------|------------|
+| `CONCEPTS.md` | Claude | The theory in plain language. Read before and after freeCodeCamp. |
+| `BRIEF.md` | Claude | What to build this week, and what to study first. |
+| my code | **me** | The actual work. |
+| `NOTES.md` | **me** | The week in my own words. Blank until I fill it. |
+
+Then I tell Claude "done" and it reviews my real code, line by line, and asks me questions about it.
+
+`NOTES.md` is not busywork. Writing something in my own words is the test of whether I understood it. Copying `CONCEPTS.md` into it defeats the point.
+
+Where to find theory for every topic: [RESOURCES.md](RESOURCES.md)
 
 ## The plan
 
