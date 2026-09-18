@@ -26,9 +26,21 @@ The domain name of the URL: which represents the top-level location of the serve
 /en-US/
 The path to the resource on the server that you are accessing.
 Web standards are the technologies we use to build websites. 
-
-
-
+Html is the technology that defines the content of any website. it tells the web browser how to structure web pages you visit
+It lives inside the Html documents or just documents i.e .html file extension
+Paragraph element consist of the following:
+Opening tag: consist of the name of the element wrapped in angle bracket example <p>
+Content:This is content of the element i;e words that will exist betweet opening and closing tag
+Closing tag:it is similar with the opening tag only it has a forward slash before the element
+parts of a html 
+<!doctype html>: its the shortest string of character that count as avalid doctype and it should be inculed the top of all web pages
+<html></html>: its an element that wrap all the content on the page
+<head></head>: it acts as a container for information about the page that isn't part of the content that users will see
+<meta charset="utf-8">: (<meta>)its an element that represent metadata that describe the page
+charset: its an attribute that specify the character encoding your document will use and UTF-8: includes most characters from the majority of human written languages, 
+<title></title>: it sets the title of the page
+<body></body>: it contains all content displayed on the page
+Head content is not displayed on the page it contain metadata about hte document
 
 
 
