@@ -41,7 +41,26 @@ charset: its an attribute that specify the character encoding your document will
 <title></title>: it sets the title of the page
 <body></body>: it contains all content displayed on the page
 Head content is not displayed on the page it contain metadata about hte document
-
+Representing computer codes:
+<code> for marking up generic pieces of comp codes
+<prev> for retainng white space
+<var> for marking up variable names
+<akbd> for marking up keyboard input
+<samp> for marking up output on comp program
+<main> is for content unique for the page and its only used once per page put it directly inside the body it shouln't be nested withen other element
+<article> it encloses a block of related content that makes sense on its own without the rest of the page
+<section> is similar to article but is of grouping all together a single part of the page that constitute one single piece of functionality (like a map)
+<aside> contain content that is not directly related to the main content but can provide additional information indirectly related to it
+<nav> contain main navigation functionality of the page
+<br> creates a line break in paragraph
+<hr> creates a horizontal rule in the document that donates a themantic change in the text
+Hyperlinks:are features of an HTML document that when clicked or activated can  cause the browser to navigate to other documents or resources or specific parts of documents
+A basic link is created by wrapping the text or other content inside <a> element or by using href attribute
+Block level links: if you want to add a heading element into a link then wrap in an anchor <a> 
+Image links: if you want to turn an image into a link wrap the <img> with an <a> element
+Tables:
+its a structured set of data made up of rows and columns
+it allows you to quickly and easily look up for values that indicate a connection between different types of data
 
 
 
