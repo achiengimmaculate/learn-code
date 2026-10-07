@@ -1,0 +1,126 @@
+/* Basic type and text */
+
+/* Solution: Set alternative box model on all elements */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.2em / 1.5 system-ui;
+  width: clamp(480px, 70%, 1000px);
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  color: red;
+}
+
+/* Solution: Update :hover styles to also apply on :focus
+so that keyboard users can see the updated styles when
+they tab to links */
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Solution: bold ::first-line of each paragraph that appears
+right after a second-level heading, but only when the parent
+element is not the introduction, summary, or footer
+(use :not(.highlight) to specify this second bit) */
+section:not(.highlight) h2 + p::first-line {
+  font-weight: bold;
+}
+
+/*
+
+Alternative to the above solution: bold all instances first,
+then remove it from those inside an element with the highlight
+class afterwards
+
+section h2 + p::first-line {
+  font-weight: bold;
+}
+
+.highlight h2 + p::first-line {
+  font-weight: normal;
+}
+
+*/
+
+/* Nav menu */
+
+/* Solution: Adjust nav rule selectors to only
+target the <nav> menu */
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: yellowgreen;
+  /* Solution: Set nav <a> elements to display: block so they span
+  the full width of their <li> element parents */
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Solution: Update :hover styles to also apply on :focus
+so that keyboard users can see the updated styles when
+they tab to links */
+nav a:hover,
+nav a:focus {
+  background-color: goldenrod;
+}
+
+/* Intro and summary */
+
+.highlight {
+  margin-top: 0;
+  background-color: darkslategray;
+  color: cornsilk;
+  /* Solution: Set 20px of padding on all sides of the
+  introduction, summary, and footer. They all have the
+  highlight class set on them */
+  padding: 20px;
+}
+
+/* Solution: Add higher specificity rule above ".highlight a"
+rule to override color setting (ID selectors have a higher
+specificity than class selectors) */
+#introduction a,
+#summary a {
+  color: yellow;
+}
+
+.highlight a {
+  color: purple;
+}
+
+/* Footer */
+
+/* Solution: Increase footer rule specificity by adding ".highlight"
+so that its margin-top and background-color styles are applied */
+footer.highlight {
+  margin-top: 20px;
+  background-color: goldenrod;
+  text-shadow: 1px 1px 1px black;
+}

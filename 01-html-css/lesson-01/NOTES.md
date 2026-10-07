@@ -61,8 +61,26 @@ Image links: if you want to turn an image into a link wrap the <img> with an <a>
 Tables:
 its a structured set of data made up of rows and columns
 it allows you to quickly and easily look up for values that indicate a connection between different types of data
-
-
+psuedo-classes and elements:
+it is a selector that selects elements that are in specific state
+They are first element of their type
+They are key words that start with a colon example (:hover)
+some only apply when user interacts with the document in some way
+The user-action psuedo-class are referred to as dynamic psuedo-classes example includes:
+:hover — this only applies if the user moves their pointer over an element typically a link
+:focus — only applies if the user focuses the element by clicking or using keyboard controls
+What is psuedo-element
+they act as if you had added a whole new HTML element into the markup rather than applying a class to existing elements
+Combinator
+They are used to combine other selectors in a way that allows us to select elements based on their location in the DOM relative to other elements 
+for example: 
+child or sibling
+Descendant combinator- is represented by a single space character 
+it combine 2 selectors
+Child combinator
+It is placed between 2 css selectors
+Next-sibling combinator
+(+)is placed between 2 css selectors
 
 ## What this week was about, in three sentences
 

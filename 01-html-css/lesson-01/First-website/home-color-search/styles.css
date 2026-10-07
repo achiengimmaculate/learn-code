@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+
+.controls {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  flex: 3;
+  border: 2px solid #999999;
+  padding:10px;
+  border-radius: 5px;
+}
+
+button{
+  background: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 2em;
+}
+button:hover
+button:focus{
+  background-color: #666666;
+}
+button:disabled{
+  background-color: #aaaaaa;
+}
+table img {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1 px solid #999999;
+}
+th,
+td{
+  vertical-align: top;
+  padding: 0.6em;
+}
+th{
+  border-bottom: 1px solid #999999;
+}
+tr :nth-of-type(4) {
+  width: 40%;
+}
+tr:nth-of-type(1) td:nth-of-type(2) {
+  background-color: pink;
+}
+tr:nth-of-type(2) td:nth-of-type(2) {
+  background-color: rgb(255 145 175);
+}
+tr:nth-of-type(3) td:nth-of-type(2) {
+  background-color: hotpink;
+}
+
+tr:nth-of-type(4) td:nth-of-type(2) {
+  background-color: magenta;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+caption {
+  padding: 1em;
+  font-style: italic;
+  letter-spacing: 1px;
+}
