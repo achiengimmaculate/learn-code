@@ -1,0 +1,10 @@
+html{
+    font-family:sans-serif;
+
+    .moredetails-button {
+        backround-color: #c35c5c;
+        color: black;
+        border: none;
+
+    }
+}
